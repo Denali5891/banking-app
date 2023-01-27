@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banking Application</title>
+</head>
+<body>
+    <body>     
+        <div id="id-header">         
+            <header>BIGFOOTS SPORTS BOOK</header>     
+        </div>     
+        <div id="box">         
+            <div id="Check">             
+                <h2>Balance</h2>             
+                <p>$ 0.00</p>             
+                <button id="button1">Reset</button>         
+            </div>         
+            <div id="action">             
+                <div id="Submit">                 
+                    <H3>Submit Transcation</H3>             
+                </div>             
+                <div id="amount">                 
+                    <label for="amount">Amount:</label>                 
+                    
+                    <p class="dollar">$</p><input type="number" step-".01" name="amount" id="amount">             
+                </div>             
+                <div id="dropdown">                 
+                    <label for="Type">Type</label>                 
+                    <select>                     
+                        <option value="Deposit">Deposit</option>                     
+                        <option value="Withdrawl">Withdrawl</option>                 
+                    </select>             
+                </div>         
+            </div>      
+        </div>     
+        <div>         
+            <table class="transactoin-log">
+                <thead class="table-header">             
+                <th scope="col">Transaction ID</td>             
+                <th scope="col">Type</td>             
+                <th scope="col">Amount</td>             
+                <th scope="col">Starting Balance</td>

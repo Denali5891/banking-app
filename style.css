@@ -1,0 +1,38 @@
+#id-header {
+    text-align:center;
+    font-size: xx-Large;
+    margin-top: 1em;
+    background-color: beige;
+    padding: 1em;
+
+}
+#box {
+    display: flex;
+    justify-content: space-evenly;
+}
+#action {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+}
+#amount {
+    display: flex;
+    display: inline-block;
+    /* justify-content: space-evenly; */
+}
+#money {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300;
+}
+#check {
+    display: flex;
+    flex-direction: column;
+}
+#button1 {
+    background-color: blue;
+    color: antiquewhite;
+    padding: 2em 10%;
+}
+.dollar {
+    display: inline-block;
+}
